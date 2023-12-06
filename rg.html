@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="rgcss.css">
+</head>
+<body>
+<div class="container">
+  <form id="registrationForm">
+    <h1>Registr</h1>
+    <div class="input-box">
+      <label for="usernameOrPhone">Username:</label>
+      <input type="text" id="usernameOrPhone" name="usernameOrPhone" required>
+    </div>
+    <div class="input-box">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="button" onclick="registerUser()">Register</button>
+  </form>
+  <p id="message"></p>
+</div>
+<script src="java.js"></script>
+
+</body>
+</html>
